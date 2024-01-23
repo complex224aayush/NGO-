@@ -1,0 +1,216 @@
+.top{
+    max-width: 100%;
+    width: 100vw;
+    
+}
+.w{
+    color: white;
+}
+.homecontainer{
+     width: 50vw;
+    height: 50vh;
+    max-width: 100%;
+     position:relative;
+     background-image: url('../../Images/pic1.png');
+     background-size: cover;
+     animation: slider 30s infinite linear;
+     margin-left: 25%;
+     border-radius: 10px;
+     box-shadow: 0 0 10px black;
+     
+}
+
+@keyframes slider{
+    0%{background-image: url('../../Images/pic1.png'); background-size: cover;}
+    20%{background-image: url('../../Images/b14.jpg'); background-size: cover;}
+    40%{background-image: url('../../Images/b17.jpg'); background-size: cover;}
+    60%{background-image: url('../../Images/b16.jpg'); background-size: cover;}
+    80%{background-image: url('../../Images/b13.jpg'); background-size: cover;}
+}
+
+
+
+
+
+
+.ad1{   
+transform: translateX(6%) translateY(35%);
+color: white;
+background-color: hsl(250, 100%, 75%);
+padding: 0 2vmax;
+border-radius: 1%;
+font-size: 160%;
+position: absolute;
+filter: drop-shadow(0 0 2px rgb(171, 14, 51));
+}
+.ad1:hover{
+    color: black;
+}
+.ad2{
+    padding: 1vmax 4vmax;
+    transform: translate(50.5% , -100%);
+    color: black;
+background-color: hsl(250, 100%, 75%);
+position: absolute;
+font-size: 120%;
+font-weight: bold;
+font-size: 150%;
+border-radius: 10px;
+}
+.ad21{
+    text-decoration: underline;
+    
+
+}
+.greet{
+    padding: 2vmax 2vmax;
+   text-align: center;
+   color: black;
+   padding-top: 2vmax;
+   transform: translateY(10%);
+  
+}
+.back{
+    width: 40vw;
+    height: 50vh;
+    transform: translateX(125%) translateY(-25%);
+}
+.greeting{
+    text-align: start;
+   letter-spacing: 2px;
+    color: white;
+    padding-bottom: 0vmax;
+    padding-top: 1vmax;
+    padding-left: 2vmax;
+    padding-right: 2vmax;
+    background-color: hsl(250, 51%, 10%);
+    box-sizing: border-box;
+    box-shadow: hsl(250, 100%, 75%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  
+    transform: translateX(-50%) translateY(20%);
+    max-width: 100%;
+    width: 100vw;
+}
+.greet1{
+    margin: 0;
+    padding: 1vmax 2vmax;
+   color: white;
+}
+
+.slider{
+    display: flex;
+    padding: 2vmax 1vmax;
+ 
+}
+
+.r13{
+    height: 100px;
+    padding: 2vmax 2vmax;
+    transform: translateY(30%);
+    border-radius: 20px;
+    animation: transform 1s ease;
+    
+}
+.b10{
+    height: 100px;
+    padding: 2vmax 2vmax;
+    transform: translateY(30%);
+    border-radius: 20px;
+    animation: transform 0.3s ease;
+    
+}
+.P{
+    text-align: center;
+    transform: translateX(550%);
+}
+.r13:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+   box-shadow: 0 0 53px black;
+}
+.b10:hover{
+ transform: scale(1.1);
+ cursor: pointer;
+ box-shadow: 0 0 53px black;
+}
+.R{
+text-align: center;
+transform: translateY(90%) translateX(30%);
+background-color: hsl(250, 100%, 75%);
+position: absolute;
+padding: 0vmax 1vmax;
+border-radius: 10px;
+}
+.B{
+    text-align: center;
+    transform: translateY(90%) translateX(19%);
+    background-color: hsl(250, 100%, 75%);
+    position: absolute;
+padding: 0vmax 1vmax;
+border-radius: 10px;
+}
+.ab{
+    display: flex;
+    padding: 2vmax 2vmax;
+    transform: translateY(10%);
+    width: 60%;
+    text-align: center;
+ 
+}
+.p{
+    padding: 2vmax 3vmax;
+    text-align: center;
+    transform: translateY(10%);
+}
+.m{
+    transform: translateX(30%);
+}
+.v{
+    transform: translateX(80%); 
+}
+.m331{
+    height: 15vmax;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: transform 0.3s ease;
+}
+.m331:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.m44{
+    transform: translate(100%);
+}
+.m22{
+transform: translate(50%);
+}
+.m11{
+transform: translate(20%);
+}
+.m441{
+    transform: translateX(-10%);
+   font-size: 70%;
+   border-radius: 10px;
+   box-shadow: 0 0 10px black;
+}
+.blackg{
+    background-color: rgba(0,0,0,0.281);
+    
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+}
+.greet1111>h1{
+    padding: 2vmax 2vmax;
+    text-align: center;
+    color: black;
+    padding-top: 2vmax;
+    transform: translateY(30%);
+}
+.container1{
+    transform: translate(30%, -20%);
+}
+.home15{
+    transform: translateY(-10%);
+}
